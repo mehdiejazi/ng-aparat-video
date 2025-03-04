@@ -5,7 +5,7 @@
   "author": "Mehdi Ejazi",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/ng-aparat-video.git"
+    "url": "https://github.com/mehdiejazi/ng-aparat-video.git"
   },
   "keywords": ["angular", "aparat", "video", "embed"],
   "peerDependencies": {
