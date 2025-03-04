@@ -1,59 +1,66 @@
 # NgAparatVideo
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.0.
+این پروژه با استفاده از [Angular CLI](https://github.com/angular/angular-cli) نسخه 19.2.0 ایجاد شده است.
 
-## Development server
+## سرور توسعه
 
-To start a local development server, run:
+برای راه‌اندازی سرور توسعه محلی، دستور زیر را اجرا کنید:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+پس از اجرای سرور، مرورگر خود را باز کرده و به آدرس `http://localhost:4200/` بروید. برنامه به‌صورت خودکار هنگام تغییر فایل‌های منبع، بارگذاری مجدد خواهد شد.
 
-## Code scaffolding
+## ایجاد کد جدید
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Angular CLI ابزارهای قدرتمندی برای تولید کد دارد. برای ایجاد یک کامپوننت جدید، دستور زیر را اجرا کنید:
 
 ```bash
 ng generate component component-name
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+برای مشاهده لیست کامل ابزارهای موجود (مانند `components`، `directives` یا `pipes`)، دستور زیر را اجرا کنید:
 
 ```bash
 ng generate --help
 ```
 
-## Building
+## بیلد پروژه
 
-To build the project run:
+برای بیلد (کامپایل) کردن پروژه، دستور زیر را اجرا کنید:
 
 ```bash
 ng build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+این دستور، پروژه را کامپایل کرده و خروجی را در پوشه `dist/` ذخیره می‌کند. به‌صورت پیش‌فرض، بیلد تولیدی (Production) بهینه‌سازی شده است تا عملکرد و سرعت برنامه بهبود یابد.
 
-## Running unit tests
+## اجرای تست‌های واحد
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+برای اجرای تست‌های واحد با ابزار [Karma](https://karma-runner.github.io) از دستور زیر استفاده کنید:
 
 ```bash
 ng test
 ```
 
-## Running end-to-end tests
+## اجرای تست‌های انتها به انتها (E2E)
 
-For end-to-end (e2e) testing, run:
+برای اجرای تست‌های End-to-End از دستور زیر استفاده کنید:
 
 ```bash
 ng e2e
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+توجه داشته باشید که Angular CLI به‌صورت پیش‌فرض یک فریم‌ورک تست E2E ارائه نمی‌دهد. شما می‌توانید فریم‌ورکی که نیاز دارید را انتخاب و پیکربندی کنید.
 
-## Additional Resources
+## درباره این پروژه
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+این پروژه را برای سرگرمی و آشنایی با نحوه انتشار یک کتابخانه روی npm انجام داده‌ام، اما می‌تواند برای برنامه‌نویسان Angular بسیار مفید باشد.
+
+اگر در آینده وب‌سایت آپارات روش نمایش ویدیوهای خود را تغییر دهد، دیگر نیازی نیست که در همه قسمت‌های کد خود تغییر ایجاد کنید. فقط کافی است این کامپوننت را به‌روز کنید تا مشکل برطرف شود.
+
+## منابع اضافی
+
+برای اطلاعات بیشتر درباره Angular CLI و مستندات دستورات، می‌توانید به صفحه [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) مراجعه کنید.
+
