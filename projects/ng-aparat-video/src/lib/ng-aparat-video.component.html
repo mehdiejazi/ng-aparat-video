@@ -1,0 +1,13 @@
+<div *ngIf="useScriptEmbed; else iframeEmbed">
+    <div [id]="'aparat_' + videoId"></div>
+    <script [attr.src]="scriptEmbedUrl"></script>
+  </div>
+  
+  <ng-template #iframeEmbed>
+
+    <div class="h_iframe-aparat_embed_frame">
+      <span style="display: block; padding-top: 57%"></span>
+      <iframe [src]="iframeEmbedUrl" allow="autoplay" allowfullscreen></iframe>
+    </div>
+  </ng-template>
+  

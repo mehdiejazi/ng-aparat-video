@@ -1,0 +1,15 @@
+{
+  "name": "ng-aparat-video",
+  "version": "1.0.0",
+  "description": "An Angular component for embedding Aparat videos",
+  "author": "Mehdi Ejazi",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/ng-aparat-video.git"
+  },
+  "keywords": ["angular", "aparat", "video", "embed"],
+  "peerDependencies": {
+    "@angular/common": "^16.0.0",
+    "@angular/core": "^16.0.0"
+  }
+}
